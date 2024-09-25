@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe User, :type => :model do
-  subject { 
-         described_class.new(password: "some_password", 
+RSpec.describe User, type: :model do
+  subject {
+         described_class.new(password: "some_password",
                              email: "john@doe.com"
-         )  
+         )
   }
 
   describe "Validations" do

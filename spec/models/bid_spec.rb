@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Bid, :type => :model do
+RSpec.describe Bid, type: :model do
   describe "Associations" do
     it { should belong_to(:bidder) }
     it { should belong_to(:auction) }
